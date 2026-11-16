@@ -19,7 +19,8 @@ export const banner = (quoteLines?: string[]): string | React.ReactNode => {
     }
 
     const infoData: InfoItem[] = [
-        { label: "Author", value: `<a class="hover:underline" href="https://github.com/${terminalConfig.github}" target="_blank">XERA-2011</a>` },
+        { label: "Parent", value: `<a class="hover:underline text-terminal-cyan" href="${terminalConfig.parentSite.url}" target="_blank">${terminalConfig.parentSite.name} (xerafun.com)</a>` },
+        { label: "Author", value: `<a class="hover:underline" href="https://github.com/${terminalConfig.github}" target="_blank">${terminalConfig.name}</a>` },
         { label: "Sites", value: terminalConfig.sites.map((site) => `<a class="hover:underline" href="${site.url}" target="_blank">${site.name}</a>`).join(" ") },
         { label: "Social", value: terminalConfig.social.map((social) => `<a class="hover:underline" href="${social.url}" target="_blank">${social.name}</a>`).join(" ") },
         { label: "About", value: `<span  class="text-terminal-orange cursor-pointer hover:underline" onclick="window.executeCommand('about')">me</span>` },

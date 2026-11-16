@@ -8,7 +8,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-    # 仅在生产代码修改时触发部署
+    # Only trigger deployment on production code changes
     paths:
       - "src/**"
       - "public/**"

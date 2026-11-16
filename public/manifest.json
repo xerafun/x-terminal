@@ -1,16 +1,22 @@
 {
-    "name": "x-terminal",
-    "short_name": "x-terminal",
-    "description": "A terminal-style portfolio website.",
-    "start_url": "/",
+    "name": "X-Terminal | XeraFun",
+    "short_name": "X-Terminal",
+    "description": "Interactive Web Terminal of XeraFun (terminal.xerafun.com)",
+    "start_url": "https://terminal.xerafun.com/",
+    "scope": "/",
     "display": "standalone",
-    "background_color": "#000000",
-    "theme_color": "#000000",
+    "background_color": "#181818",
+    "theme_color": "#181818",
     "icons": [
         {
-            "src": "favicon.ico",
+            "src": "/favicon.ico",
             "sizes": "any",
             "type": "image/x-icon"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
         }
     ]
 }

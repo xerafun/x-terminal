@@ -9,7 +9,7 @@ interface TypingEffectProps {
 }
 
 export const TypingEffect: React.FC<TypingEffectProps> = ({
-    lines = ["Hello World!", "Welcome to XERA-2011 Terminal"],
+    lines = ["Hello World!", "Welcome to XeraFun Terminal"],
     wait = 1000,
     speed = 50
 }) => {

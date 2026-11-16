@@ -37,12 +37,19 @@ export const help = async (): Promise<string> => {
 export const about = async (): Promise<string> => {
     return `<span class="text-terminal-gray">
 Hi, I am ${terminalConfig.name}
-Full-Stack Engineer
+Full-Stack Engineer & Creator of XeraFun
+
+This is X-Terminal (https://terminal.xerafun.com), a web terminal sub-project of XeraFun (https://xerafun.com).
 Email: ${terminalConfig.email}
 
 Welcome to my terminal website!
-
 </span>`;
+};
+
+// XeraFun Parent Site
+export const xerafun = async (): Promise<string> => {
+    window.open(terminalConfig.parentSite.url);
+    return `Opening XeraFun main site (${terminalConfig.parentSite.url})...\n<span class="text-terminal-gray">XeraFun is the parent portal connecting games, tools, and developer projects.</span>`;
 };
 
 

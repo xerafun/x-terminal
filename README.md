@@ -1,18 +1,20 @@
 # x-terminal
 
-[![CI](https://github.com/XERA-2011/x-terminal/actions/workflows/ci.yml/badge.svg)](https://github.com/XERA-2011/x-terminal/actions/workflows/ci.yml)
-[![Deploy](https://github.com/XERA-2011/x-terminal/actions/workflows/deploy.yml/badge.svg)](https://github.com/XERA-2011/x-terminal/actions/workflows/deploy.yml)
-[![Sponsor](https://img.shields.io/badge/Sponsor-❤️-ff69b4.svg)](https://github.com/XERA-2011/sponsor)
+[![CI](https://github.com/xerafun/x-terminal/actions/workflows/ci.yml/badge.svg)](https://github.com/xerafun/x-terminal/actions/workflows/ci.yml)
+[![Deploy](https://github.com/xerafun/x-terminal/actions/workflows/deploy.yml/badge.svg)](https://github.com/xerafun/x-terminal/actions/workflows/deploy.yml)
+[![Sponsor](https://img.shields.io/badge/Sponsor-❤️-ff69b4.svg)](https://github.com/xerafun/sponsor)
 
-Terminal Web UI
+Terminal Web UI — Sub-project of [XeraFun](https://xerafun.com)
 
 ## 🌐 Live Deployments
 
-| Platform | URL |
-|----------|-----|
+| Platform / Role | URL |
+|-----------------|-----|
+| **Primary Domain** | [terminal.xerafun.com](https://terminal.xerafun.com) |
+| **XeraFun Main Site** | [xerafun.com](https://xerafun.com) |
 | Cloudflare Pages | [x-terminal.pages.dev](https://x-terminal.pages.dev) |
 | Vercel | [x-terminal.vercel.app](https://x-terminal.vercel.app) |
-| GitHub Pages | [xera-2011.github.io/x-terminal](https://xera-2011.github.io/x-terminal) |
+| GitHub Pages | [xerafun.github.io/x-terminal](https://xerafun.github.io/x-terminal) |
 
 ## 🚀 Getting Started
 

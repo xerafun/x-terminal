@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
-// 从环境变量读取 basePath
-// 默认为空字符串（用于根路径部署）
+// Read basePath from environment variable (empty string for root path deployment)
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 const nextConfig: NextConfig = {

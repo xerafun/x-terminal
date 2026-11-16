@@ -4,13 +4,21 @@
 
 export const terminalConfig = {
     // Personal information
-    name: "XERA-2011",
+    name: "xerafun",
     email: "1138006034@qq.com",
-    github: "XERA-2011",
+    github: "xerafun",
+    parentSite: {
+        name: "XeraFun",
+        url: "https://xerafun.com",
+    },
+    url: "https://terminal.xerafun.com",
     sites: [
         {
+            name: "xerafun(main)",
+            url: "https://xerafun.com"
+        }, {
             name: "blog",
-            url: "https://xera-2011.github.io"
+            url: "https://xerafun.github.io"
         }, {
             name: "x-texas-holdem",
             url: "https://x-texas-holdem.pages.dev"
@@ -30,15 +38,15 @@ export const terminalConfig = {
         },
         // {
         //     name: "GitHub",
-        //     url: "https://github.com/XERA-2011"
+        //     url: "https://github.com/xerafun"
         // }
     ],
 
     repo: {
-        github: "https://github.com/XERA-2011/x-terminal",
+        github: "https://github.com/xerafun/x-terminal",
     },
 
     // Site title
-    title: "x-terminal",
+    title: "X-Terminal | XeraFun Web Terminal",
 } as const;
 export type TerminalConfig = typeof terminalConfig;

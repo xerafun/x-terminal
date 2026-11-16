@@ -1,0 +1,29 @@
+# X-Terminal
+
+> Interactive Web Terminal of XeraFun (xerafun.com), hosted at https://terminal.xerafun.com.
+
+## Overview
+
+- URL: https://terminal.xerafun.com
+- Main Site: https://xerafun.com
+- Author: xerafun
+- GitHub: https://github.com/xerafun/x-terminal
+
+## Ecosystem
+
+- [XeraFun](https://xerafun.com): Main digital portal.
+- [X-Terminal](https://terminal.xerafun.com): Web terminal portfolio.
+- [Blog](https://xerafun.github.io): Tech blog.
+- [X-Texas-Holdem](https://x-texas-holdem.pages.dev): Web game.
+
+## Commands
+
+- `xerafun`: Open the main site (xerafun.com).
+- `about`: Display bio and site information.
+- `projects` / `ls`: List GitHub repositories.
+- `banner`: Show welcome banner.
+- `weather [city]`: Check city weather.
+- `quote`: Show inspirational quote.
+- `whoami`: Print current shell username.
+- `help`: List commands.
+- `clear`: Clear screen.
